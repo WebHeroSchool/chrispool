@@ -1,9 +1,9 @@
 .main-content__title {
-  font-family: 'Roboto', sans-serif;
-  color: orange;
+    font-family: 'Roboto', sans-serif;
+    color: orange;
 }
 body {
-    margin 0;
+    margin: 0;
     border: dashed 1px red
 }
 .wrapper {
