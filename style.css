@@ -58,6 +58,7 @@ body {
     font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
     color: #000;
     text-decoration: none;
+    position: relative;
 }
 .menu__item:last-child {
     padding-right: 0;
