@@ -1,9 +1,6 @@
 .main {
-  padding-top: 100px;
-  padding-right: 63%;
-  background: url(img/mainImg.svg);
-  background-repeat: no-repeat;
-  background-position: center right;
+  padding: 0 63% 100px 0;
+  background: top right no-repeat url(img/mainImg.svg);
 }
 
 .main__title {
@@ -33,6 +30,7 @@
   padding: 40px 0;
   display: flex;
   justify-content: space-between;
+  margin-bottom: 100px;
 }
 
 .logo, .menu {
