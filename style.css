@@ -2,9 +2,11 @@
   font-family: 'Roboto', sans-serif;
   color: auto;
 }
+
 .body {
     margin: 0;
 }
+
 .wrapper {
     margin: auto;
     width: 80%;
@@ -26,6 +28,7 @@
   font: bold 24px/31px pt_serifbold, arial, helvetica, sans-serif;
   position: relative;
 }
+
 .logo__circle {
  width: 28px;
  height: 28px;
@@ -73,4 +76,8 @@
  height: 3px;
  left: 0;
  background: #0056EC;
+}
+
+.menu__item:hover {
+color: red;
 }
