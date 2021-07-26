@@ -34,7 +34,7 @@
 }
 
 .main__button:keyframes {
-  border-color: #3498db;
+  border-color: #0056EC;
   color: #fff;
   box-shadow: 0 0 40px 40px #0056EC inset, 0 0 0 0 #0056EC;
   -webkit-transition: all 150ms ease-in-out;
