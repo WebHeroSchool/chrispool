@@ -1,16 +1,20 @@
-.main-content {
+.main {
   padding-top: 100px;
   width: 37%;
 }
 
-.main-content__title {
+.main__title {
   margin: 0 0 40px 0;
   font: bold 50px/65px pt_serifbold, arial, helvetica, sans-serif;
 }
 
-.main-content__subtitle {
+.main__subtitle {
   margin: 0 0 40px 0;
   font: 18px/21px Roboto, arial, helvetica, sans-serif;
+}
+
+.main__button {
+  font: 14px/16px Roboto, arial, helvetica, sans-serif;
 }
 
 .body {
