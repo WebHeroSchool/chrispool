@@ -69,6 +69,7 @@
  content: '';
  width: 100%;
  height: 3px;
+ left: 0;
  background: #0056EC;
  position: absolute;
 }
