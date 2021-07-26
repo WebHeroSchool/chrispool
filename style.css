@@ -1,6 +1,9 @@
 .main {
   padding-top: 100px;
-  width: 37%;
+  padding-right: 63%;
+  background: url(img/mainImg.svg);
+  background-repeat: no-repeat;
+  background-position: center right;
 }
 
 .main__title {
