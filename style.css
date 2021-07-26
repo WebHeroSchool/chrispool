@@ -1,25 +1,35 @@
+.main-content {
+  padding-top: 100px;
+  width: 37%;
+}
+
 .main-content__title {
-  font-family: 'Roboto', sans-serif;
-  color: auto;
+  margin: 0 0 40px 0;
+  font: bold 50px/65px pt_serifbold, arial, helvetica, sans-serif;
+}
+
+.main-content__subtitle {
+  margin: 0 0 40px 0;
+  font: 18px/21px Roboto, arial, helvetica, sans-serif;
 }
 
 .body {
-    margin: 0;
+  margin: 0;
 }
 
 .wrapper {
-    margin: auto;
-    width: 80%;
+  margin: auto;
+  width: 80%;
 }
 
 .header {
-    padding: 40px 0;
-    display: flex;
-    justify-content: space-between;
+  padding: 40px 0;
+  display: flex;
+  justify-content: space-between;
 }
 
 .logo, .menu {
-    display: inline-block;
+  display: inline-block;
 }
 
 .logo {
@@ -30,20 +40,20 @@
 }
 
 .logo__circle {
- width: 28px;
- height: 28px;
- position: absolute;
- left: 0;
- top: 50%;
- transform: translateY(-50%);
- border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 50%;
 }
 
 .logo__circle_color_blue {
- left: 8px;
- top: 56%;
- opacity: .7;
- background: #C8DBFB;
+  left: 8px;
+  top: 56%;
+  opacity: .7;
+  background: #C8DBFB;
 }
 
 .logo__circle_color_dark-blue {
@@ -52,40 +62,40 @@
 }
 
 .menu {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .menu__item {
-    position: relative;
-    margin-right: 26px;
-    font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
-    color: #000;
-    text-decoration: none;
-    transition: opacity .5s;
+  position: relative;
+  margin-right: 26px;
+  font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
+  color: #000;
+  text-decoration: none;
+  transition: opacity .5s;
 }
 
 .menu__item:last-child {
-    margin-right: 0;
+  margin-right: 0;
 }
 
 .menu__item:after {
- position: absolute;
- left: 0;
- display: block;
- content: '';
- width: 0;
- height: 3px;
- background: #0056EC;
- opacity: 0;
- transition: opacity .5s, width .5s;
+  position: absolute;
+  left: 0;
+  display: block;
+  content: '';
+  width: 0;
+  height: 3px;
+  background: #0056EC;
+  opacity: 0;
+  transition: opacity .5s, width .5s;
 }
 
 .menu__item:hover {
- opacity: 0.5;
+  opacity: 0.5;
 }
 
 .menu__item:hover:after, .menu__item_active:after {
- opacity: 1;
- width: 100%;
+  opacity: 1;
+  width: 100%;
 }
