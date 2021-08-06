@@ -14,7 +14,9 @@ body {
 }
 
 .main__title-text_highlight {
-  background: linear-gradient(180deg, rgba(255,255,255,1) 15%, #ECF3FF 0%);
+  background: linear-gradient(#ECF3FF, #ECF3FF) no-repeat;
+  background-position: center top 14px;
+  background-size: 100% 75%;
 }
 
 .main__subtitle {
