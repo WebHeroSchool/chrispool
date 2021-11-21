@@ -110,7 +110,7 @@ body {
 
 .main__subtitle {
   margin: 0 38% 5.9% 0;
-  font: 400 22px/26px Roboto, arial, helvetica, sans-serif;
+  font: 500 22px/26px Roboto, arial, helvetica, sans-serif;
 }
 
 .main__button {
@@ -217,16 +217,20 @@ body {
    height: 100%;
    margin: 0;
    background: #fff;
-   padding: 33% 33%;
+   padding: 33%;
+   align-items: center;
 }
 
  /* элементы меню */
  .menu__box_link {
-   display: block;
-   position: fixed;
+   display: flex;
+   position: absolute;
    color: #000;
    font: 500 30px/35px Roboto, arial, helvetica, sans-serif;
    text-decoration: none;
+   align-items: center;
+   text-align: center;
+
  }
 
  .menu__box_link:hover {
@@ -235,9 +239,12 @@ body {
  }
 
  .menu__box_list {
+   display: block;
    list-style: "";
    line-height: 55px;
    text-indent: 0;
+   text-align: center;
+   align-items: center;
  }
 
  #menu__toggle:checked ~ .menu__btn > span {
@@ -285,7 +292,7 @@ body {
   .main__subtitle {
     margin: auto;
     margin-bottom: 25px;
-    font: 500 16px/19px Roboto, arial, helvetica, sans-serif;
+    font: bold 500 16px/19px Roboto, arial, helvetica, sans-serif;
   }
 
   .main__button {
