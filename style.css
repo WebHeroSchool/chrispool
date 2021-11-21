@@ -140,7 +140,6 @@ body {
 .menu__burger {
   display: none;
   position: fixed;
-  margin-left: 80%; /* как сдвинуть бургер вправо???*/
 }
 
   @media (max-width: 768px) {
@@ -167,6 +166,7 @@ body {
 .menu__burger {
   display: block;
   position: fixed;
+  align-items: center;
 }
 
  /* стилизуем кнопку */
@@ -212,15 +212,15 @@ body {
    display: block;
    position: fixed;
    visibility: hidden;
-   text-align: center;
    top: 0;
-   left: -50%;
+   left: -100%;
    width: 100%;
    height: 100%;
    margin: 0;
-   padding: 200px 200px;
-   background: #4682B4;
-   opacity: 0.8;
+   background: #fff;
+   padding: 45% 33%;
+   align-items: center;
+
 }
 
  /* элементы меню */
@@ -228,9 +228,9 @@ body {
    display: block;
    position: fixed;
    color: #000;
-   font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
+   font: 500 30px/35px Roboto, arial, helvetica, sans-serif;
    text-decoration: none;
-   text-align: /* ??? */;
+   align-items: center;
  }
 
  .menu__box_link:hover {
@@ -240,6 +240,9 @@ body {
 
  .menu__box_list {
    list-style: "";
+   line-height: 55px;
+   text-indent: 0;
+   align-items: center;
  }
 
  #menu__toggle:checked ~ .menu__btn > span {
