@@ -2,9 +2,10 @@
 <html>
   <head>
     <meta charset=”UTF-8”>
+    <meta name="viewport" content="width=device-width, inicial-scale=1">
     <title>HTML структура документа</title>
     <link rel="stylesheet" href="fonts.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap">
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
@@ -13,25 +14,48 @@
         <div class="logo">
           <div class="logo__circle logo__circle_color_dark-blue"></div>
           <div class="logo__circle logo__circle_color_blue"></div>
-          app.creation</div>
+          <span>app.creation</span></div>
         <nav class="menu">
           <a class="menu__item" href="#">start</a>
-          <a class="menu__item" href="#">services</a>
+          <a class="menu__item menu__item_active" href="#">services</a>
           <a class="menu__item" href="#">about</a>
           <a class="menu__item" href="#">blog</a>
           <a class="menu__item" href="#">contact us</a>
         </nav>
-      </header>
-      <section class="main-section">
-        <main class="main-content">
-          <h1 class ="main-content__title">Building an App Without Design Expertise?</h1>
-          <p class ="main-content__subtitle">I help tech startups design better digital products
-without hiring a full-time designer</p>
-          <button class="main-content__button">Schedule free consultation</button>
-        </main>
-      <div class="image-content">
-        <img class="image-content__image" src="" alt="">
-      </div>
+        </header>
+
+        <div class="menu__burger">
+          <input id="menu__toggle" type="checkbox"/>
+        <label class ="menu__btn" for="menu__toggle">
+          <span></span>
+        </label>
+        <nav class="menu__box">
+          <ul class="menu__box_list">
+            <li>
+              <a class="menu__box_link" href="">start</a>
+            </li>
+            <li>
+              <a class="menu__box_link" href="">services</a>
+            </li>
+            <li>
+              <a class="menu__box_link" href="">about</a>
+            </li>
+            <li>
+              <a class="menu__box_link" href="">blog</a>
+            </li>
+            <li>
+              <a class="menu__box_link" href="">contact us</a>
+            </li>
+          </ul>
+        </nav>
+         </div>
+
+      <section class="main">
+          <h1 class ="main__title">Building an App <span
+class="main__title-text_highlight">Without Design Expertise</span>?</h1>
+          <p class ="main__subtitle">I help tech startups design better digital&nbspproducts
+without hiring a&nbspfull&#8209;time&nbspdesigner</p>
+          <a class="main__button" href="#">Schedule free consultation</a>
       </section>
      </div>
   </body>
