@@ -217,19 +217,33 @@ body {
    height: 100%;
    margin: 0;
    background: #fff;
-   padding: 33%;
    align-items: center;
+   text-align: center;
 }
 
  /* элементы меню */
+ .menu__box_list {
+   display: grid;
+   position: absolute;
+   justify-content: center;
+   align: center;
+   margin:  auto;
+   top: 33%;
+   left: 0;
+   right: 43%;
+   text-indent: 0;
+   list-style: "";
+   line-height: 55px;
+ }
+
  .menu__box_link {
    display: flex;
    position: absolute;
    color: #000;
    font: 500 30px/35px Roboto, arial, helvetica, sans-serif;
    text-decoration: none;
-   align-items: center;
    text-align: center;
+   white-space: nowrap;
 
  }
 
@@ -238,14 +252,6 @@ body {
    transition: 0.5s;
  }
 
- .menu__box_list {
-   display: block;
-   list-style: "";
-   line-height: 55px;
-   text-indent: 0;
-   text-align: center;
-   align-items: center;
- }
 
  #menu__toggle:checked ~ .menu__btn > span {
    transform: rotate(45deg);
