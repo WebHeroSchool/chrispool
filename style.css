@@ -5,6 +5,8 @@ body {
 .wrapper {
   margin: auto;
   width: 79.6%;
+  /*max-width: 1920px;
+  min-width: 375px;*/
 }
 
 .header {
@@ -144,6 +146,23 @@ body {
 
   @media (max-width: 768px) {
 
+    .logo__circle {
+      width: 28px;
+      height: 28px;
+      position: absolute;
+      left: -14px;
+      top: 80%;
+      transform: translateY(-50%);
+      border-radius: 50%;
+    }
+
+    .logo__circle_color_blue {
+      left: -6px;
+      top: 95%;
+      opacity: .7;
+      background: #C8DBFB;
+    }
+
   .logo > span {
     opacity: 0;
   }
@@ -174,8 +193,8 @@ body {
    align-items: center;  /* центрируем содержимое кнопки */
    position: fixed;
    top: 27px;
-   right: 23px;
-   width: 26px;
+   right: 24px;
+   width: 25px;
    height: 26px;
    cursor: pointer;
    z-index: 1;
@@ -197,12 +216,12 @@ body {
 
  .menu__btn > span::before {
    content: '';
-   top: -8px;
+   top: -7px;
    position: absolute;
  }
  .menu__btn > span::after {
    content: '';
-   top: 8px;
+   top: 7px;
    position: absolute;
  }
 
@@ -215,7 +234,7 @@ body {
    left: -100%;
    width: 100%;
    height: 100%;
-   margin: 0;
+
    background: #fff;
    align-items: center;
    text-align: center;
@@ -227,24 +246,22 @@ body {
    position: absolute;
    justify-content: center;
    align: center;
-   margin:  auto;
-   top: 33%;
-   left: 0;
-   right: 43%;
+   margin: 33%;
    text-indent: 0;
    list-style: "";
-   line-height: 55px;
+   padding: 0;
  }
 
  .menu__box_link {
    display: flex;
-   position: absolute;
+   position: relative;
    color: #000;
    font: 500 30px/35px Roboto, arial, helvetica, sans-serif;
    text-decoration: none;
    text-align: center;
    white-space: nowrap;
-
+   justify-content: center;
+   line-height: 55px;
  }
 
  .menu__box_link:hover {
@@ -267,7 +284,6 @@ body {
  #menu__toggle:checked ~ .menu__box {
    visibility: visible;
    left: 0;
-
  }
 
   .menu__btn > span,
@@ -285,13 +301,13 @@ body {
 
   .main {
     text-align: center;
-    padding: 74% 0 0;
-    background-size: 74%;
+    padding: 80% 0 40% 0;
+    background-size: 94%;
     background-position: top center;
   }
 
   .main__title {
-    margin-bottom: 44px;
+    margin-bottom: 30px;
     font: bold 30px/39px pt_serifbold, arial, helvetica, sans-serif;
   }
 
